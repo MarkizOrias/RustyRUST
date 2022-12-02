@@ -5,6 +5,8 @@ fn main() {
     // division of lines is possible with \n
 
     let mut guess = String::new();
+    // defining by 'let' a mutable variable 'guess'
+    // bound (=) to the new() is associated function of a string type
 
     io::stdin()
         .read_line(&mut guess)
